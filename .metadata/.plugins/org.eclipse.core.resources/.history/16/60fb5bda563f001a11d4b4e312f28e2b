@@ -1,0 +1,15 @@
+package lv.eleonora;
+
+public class TestFigureClass {
+
+	public static void main(String[] args) {
+		
+        Circle figure = new Circle();
+        Circle figure1 = new Circle(40.2); 
+        
+		
+		System.out.println(figure.getColor()+" "+figure.getRadius());
+		System.out.println(figure.getColor()+" "+figure1.getRadius());
+	}
+
+}

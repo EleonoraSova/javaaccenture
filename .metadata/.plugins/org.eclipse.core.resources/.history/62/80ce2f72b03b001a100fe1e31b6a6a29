@@ -1,0 +1,17 @@
+
+public class arraysSumForLoop {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		int[] marks = {76, 23, 42, 100, 99, 10, 56};
+		// Sum of vallues in arrays
+		// Print in console
+		
+		System.out.println(marks[0]+marks[1]+marks[2]);
+
+	}
+
+}

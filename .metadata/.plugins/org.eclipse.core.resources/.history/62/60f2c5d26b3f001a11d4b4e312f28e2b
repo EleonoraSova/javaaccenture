@@ -1,0 +1,16 @@
+package lv.eleonora.learnstring;
+
+public class TestStringClass {
+
+	
+	public static void main(String[] args) {
+		String str = "Index";
+		String strClass = new String("Index parm");
+		
+		System.out.println(str);
+		
+		System.out.println("string like obj "+strClass);
+
+	}
+
+}
