@@ -1,0 +1,5 @@
+package lv.eleonora.bookstore;
+
+public class Book {
+
+}

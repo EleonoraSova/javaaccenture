@@ -1,0 +1,40 @@
+package lv.eleonora;
+
+import lv.eleonora.bookstore.Author;
+
+
+
+public class TestBookStore {
+
+	
+	public static void main(String[] args) {
+		
+		Author test1 = new Author("name", "name@name", 'f');
+		Author test2 = new Author("name", "name1@name", '0');
+		
+		System.out.println(test1.toString());
+		System.out.println();
+		System.out.println("+++++++++++++++++++++");
+		
+//		char m = 'm';
+//		char f ='f';
+//		char o = 'o';
+//		
+//		if(m == 0 || f == 0){
+//			System.out.println("It is M for F");
+//		}else{
+//			System.out.println("It is not M for F");
+//		}
+//		
+//		switch(o){
+//		  case 'm':
+//			  System.out.println("Its m");
+//			  break;
+//		  case 'f':
+//		  System.out.println("Its f");
+//		  break;
+//		  default:
+//			  System.out.println("Not in list");
+		}
+
+	}
