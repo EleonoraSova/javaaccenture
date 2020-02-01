@@ -1,0 +1,22 @@
+package lv.eleonora.encapsulation;
+
+public class Student {
+	
+	private String name;
+	
+	
+	
+	public String getName() {
+		return name;
+	}
+	
+	public void setName() {
+		extracted();
+		
+	}
+
+	private String extracted() {
+		return this.name = name;
+	}
+
+}

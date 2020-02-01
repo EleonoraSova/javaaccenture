@@ -3,4 +3,7 @@
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="lv.eleonora.geometricfigures.Circle"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="lv.eleonora.bookstore.Author"/>
+<fullyQualifiedTypeName name="lv.eleonora.bookstore.Book"/>
+<fullyQualifiedTypeName name="lv.eleonora.figure.Rectangle"/>
 </qualifiedTypeNameHistroy>

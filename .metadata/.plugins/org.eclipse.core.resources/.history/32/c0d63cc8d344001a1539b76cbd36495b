@@ -1,0 +1,10 @@
+package lv.eleonora.encapsulation;
+
+public class Student {
+
+	private String name;
+		
+
+	}
+
+}

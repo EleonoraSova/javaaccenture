@@ -1,0 +1,8 @@
+package lv.eleonora.interfaces;
+
+public class Rectangle {
+	private int length;
+	private int width;
+	
+
+}

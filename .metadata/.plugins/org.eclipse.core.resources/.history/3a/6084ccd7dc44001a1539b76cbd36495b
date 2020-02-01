@@ -1,0 +1,5 @@
+package lv.eleonora.interfaces;
+
+public class Shape {
+
+}
