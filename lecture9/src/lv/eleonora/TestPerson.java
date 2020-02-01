@@ -25,6 +25,19 @@ public class TestPerson {
 			teacher1.addCourse(course);
 		}
 		
+		Teacher t1 = new Teacher("Toms B", "Riga iela");
+		System.out.println(t1.toString());
+		String[] coursesForT1 = {"CS10", "AL", "BIO", "CS10"};
+		for(String core : coursesForT1){
+			if(t1.addCourses(core)){
+			System.out.println(core + " added ");
+			
+		}else{
+			
+			System.out.println(core + " cannot be added");
+		
+	
+	  }
 	}
-
+  }
 }
