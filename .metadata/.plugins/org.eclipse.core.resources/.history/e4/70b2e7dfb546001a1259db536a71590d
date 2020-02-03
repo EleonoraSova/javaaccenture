@@ -1,0 +1,10 @@
+package lv.eleonora;
+
+public class TestarrayWithObjects {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

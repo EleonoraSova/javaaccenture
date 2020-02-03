@@ -1,0 +1,13 @@
+package lv.eleonora;
+
+public class TestarrayWithObjects {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
