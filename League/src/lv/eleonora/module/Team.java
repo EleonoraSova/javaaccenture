@@ -38,13 +38,11 @@ public class Team {
 	public void setTies(int ties) {
 		this.ties = ties;
 	}
-
+	
 	@Override
 	public String toString() {
 		return "Team [name=" + name + ", wins=" + wins + ", losses=" + losses
-				+ ", ties=" + ties + ", getName()=" + getName()
-				+ ", getWins()=" + getWins() + ", getLosses()=" + getLosses()
-				+ ", getTies()=" + getTies() + "]";
+				+ ", ties=" + ties + "]";
 	}
 
 	public int gamesPlayed(){
