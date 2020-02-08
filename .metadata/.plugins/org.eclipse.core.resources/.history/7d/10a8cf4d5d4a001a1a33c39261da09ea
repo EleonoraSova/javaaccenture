@@ -1,0 +1,11 @@
+package lv.eleonora.inputoutput;
+
+public class TestBufferRead {
+
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

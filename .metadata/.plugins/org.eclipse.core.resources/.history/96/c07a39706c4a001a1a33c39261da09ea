@@ -1,0 +1,24 @@
+package lv.eleonora.inputoutput;
+
+import java.io.File;
+import java.io.FileWriter;
+
+public class TestCreateAndWriteFile {
+
+	public static void main(String[] args) throws Exception {
+		
+		String defaultStr = "Hello user userName";
+		String name = "Eleonora";
+		String res = changeString(defaultStr);
+		
+		
+		System.out.println(defaultStr+"name");
+		
+
+	}
+
+	private static String changeString(String defaultStr) {
+		
+		return null;
+	}
+}

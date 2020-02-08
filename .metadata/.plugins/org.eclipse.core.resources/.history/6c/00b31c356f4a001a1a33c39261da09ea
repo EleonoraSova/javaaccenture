@@ -1,0 +1,29 @@
+package lv.eleonora.inputoutput;
+
+import java.io.File;
+import java.util.Scanner;
+
+public class ChangeName {
+
+	public static void main(String[] args) throws Exception {
+		
+//		String defaultStr = "Hello user userName";
+//		
+//		String lastString = defaultStr.replace("userName", "");
+//		
+//		System.out.println(lastString+"Eleonora");
+//		
+		
+        File file = new File("DefaultText.txt");
+		
+		String stringFromTextFile = "";
+		
+		while(new Scanner(file).hasNextLine()){
+			stringFromTextFile = new Scanner(file).nextLine();
+			System.out.println(new Scanner(file).nextLine());
+		}
+		System.out.println("Check: "+stringFromTextFile);
+
+	}
+
+}
