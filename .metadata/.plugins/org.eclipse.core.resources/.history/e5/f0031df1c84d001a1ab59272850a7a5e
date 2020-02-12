@@ -1,0 +1,61 @@
+package lv.eleonoraa;
+
+import lv.eleonora.repeat.Java.OOP.EncapsClass;
+import lv.eleonora.repeat.Java.OOP.ImplementInterface;
+import lv.eleonora.repeat.Java.OOP.MyClass;
+import lv.eleonora.repeat.Java.OOP.MyClassConstructor;
+import lv.eleonora.repeat.Java.OOP.MyClassMethods;
+import lv.eleonora.repeat.Java.OOP.MyEnums;
+
+public class TestOOP {
+	
+	public static void main(String[] args) {
+		MyClass newObj = new MyClass();
+		MyClass newObj2 = new MyClass();
+		String strObj = "hello";
+		String strObj2 = "hello2";
+		
+		System.out.println(strObj.equals(strObj));
+		System.out.println(newObj.equals(newObj));
+		
+		System.out.println(strObj.equals(strObj2));
+		System.out.println(newObj.equals(newObj2));
+		
+		System.out.println(newObj.x);
+		
+		
+//		MyClassMethods myObjMethod = new MyClassMethods();
+//		//myObjMethod.myMethod();
+//		myObjMethod.myStringMethod();
+//		System.out.println(myObjMethod.myStringMethod());
+		
+		MyClassMethods myObjMethod = new MyClassMethods(newObj2);
+		double numberDouble = myObjMethod.returnDouble();
+		System.out.println(numberDouble);
+		
+		System.out.println(myObjMethod.returnChar(20, 20));
+	
+		MyClassConstructor myConstructorObj1 = new MyClassConstructor(2010L, "BMW");
+		MyClassConstructor myConstructorObj2 = new MyClassConstructor(1990L, "BMW");
+		MyClassConstructor myConstructorObj3 = new MyClassConstructor(1990L, "BMW");
+		System.out.println(myConstructorObj1.getModelName().equals(myConstructorObj3.getModelName()));
+		
+		System.out.println(myConstructorObj1.getModelName());
+		
+		EncapsClass objEncps = new EncapsClass();
+		objEncps.setUser("eleonora");
+		System.out.println(objEncps.getUser());
+		System.out.println(objEncps.getUser());
+		
+		ImplementInterface objInterface = new ImplementInterface();
+		objInterface.sendEmail();
+		System.out.println(objInterface.sendEmailCount());
+		
+		MyEnums status = MyEnums.HIGH;
+		System.out.println("This object is to "+status);
+		System.out.println(MyEnums.LOW);
+		
+		
+	}
+
+}

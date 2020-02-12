@@ -1,0 +1,17 @@
+package lv.eleonora.repeat.Java.OOP;
+
+public class MyClassMethods {
+
+	public static void myMethod(){
+		
+		System.out.println("Hello World!");
+	}
+	
+	public String myStringMethod(){
+		
+		myMethod();
+		
+		return "mmmm";
+	}
+	
+}

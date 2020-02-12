@@ -1,0 +1,9 @@
+package lv.eleonoraa;
+
+public class TestOOP {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

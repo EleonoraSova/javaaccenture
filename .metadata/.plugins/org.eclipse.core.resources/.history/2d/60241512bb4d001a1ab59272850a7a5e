@@ -1,0 +1,9 @@
+package lv.eleonora.repeat.Java.OOP;
+
+public class MyClassMethods {
+
+	static void nyNethod(){
+		
+		System.out.println("Hello World!");
+	}
+}
