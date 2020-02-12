@@ -1,6 +1,5 @@
 package lv.eleonoraa;
 
-import lv.eleonora.repeat.Java.OOP.ClassExtendsAbstractClass;
 import lv.eleonora.repeat.Java.OOP.EncapsClass;
 import lv.eleonora.repeat.Java.OOP.ImplementInterface;
 import lv.eleonora.repeat.Java.OOP.MyClass;
@@ -80,9 +79,6 @@ public class TestOOP {
 		Integer valueInt = Integer.valueOf(numberStrValue);
 		System.out.println(valueInt);
 		
-		ClassExtendsAbstractClass objAbstrClass = new ClassExtendsAbstractClass;
-		objAbstrClass.sleep();
-		objAbstrClass.abstractMethod();
 		
 	}
 
